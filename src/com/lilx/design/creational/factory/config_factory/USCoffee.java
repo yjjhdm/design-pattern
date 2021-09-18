@@ -7,7 +7,7 @@ package com.lilx.design.creational.factory.config_factory;
  * @Date: 2021/09/17/10:14
  * @Description:
  */
-public class USCoffee extends Coffeee {
+public class USCoffee extends Coffee {
 
     @Override
     public String getName() {

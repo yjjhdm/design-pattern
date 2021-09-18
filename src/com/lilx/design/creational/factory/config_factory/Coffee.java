@@ -7,7 +7,7 @@ package com.lilx.design.creational.factory.config_factory;
  * @Date: 2021/09/17/9:54
  * @Description:抽象咖啡类
  */
-public abstract class Coffeee {
+public abstract class Coffee {
     public abstract String getName();
     public void addsugar(){
         System.out.println("加糖");
