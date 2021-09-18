@@ -10,6 +10,7 @@ import javax.lang.model.type.ReferenceType;
  * @Description:
  */
 public class Citation implements Cloneable {
+    /*
     String name;
 
     public String getName() {
@@ -19,9 +20,26 @@ public class Citation implements Cloneable {
     public void setName(String name) {
         this.name = name;
     }
+    */
+    private Student student;
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+
+    @Override
+    public String toString() {
+        return "Citation{" +
+                "student=" + student +
+                '}';
+    }
 
     public void show(){
-        System.out.println(this.name+"被评为三好学生");
+        System.out.println(student.getName()+"被评为三好学生");
     }
 
     @Override

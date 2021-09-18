@@ -11,11 +11,11 @@ public class CitationClient {
     public static void main(String[] args) throws CloneNotSupportedException {
         Citation citation = new Citation();
         Citation student1 = citation.clone();
-        student1.setName("llx");
+        //student1.setName("llx");
         Citation student2 = citation.clone();
-        student2.setName("xxx");
+        //student2.setName("xxx");
         Citation student3 = citation.clone();
-        student3.setName("yyy");
+
         student1.show();
         student2.show();
         student3.show();
